@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Home.css';
 import Banner from '../../components/Banner/Banner';
 import DestinationCard from '../../components/DestinationCard/DestinationCard';
+import TripPlanModal from '../../components/Modal/TripPlanModal';
 
 const Home = () => {
+  const [showTripPlanModal, setShowTripPlanModal] = useState(false);
+
   // Destination data with real image URLs
   const firstRowDestinations = [
     {
@@ -183,7 +186,11 @@ const Home = () => {
         </div>
 
         {/* Floating Plan Your Trip Button */}
-        <button className="floating-plan-btn" title="Plan Your Trip">
+        <button 
+          className="floating-plan-btn" 
+          title="Plan Your Trip"
+          onClick={() => setShowTripPlanModal(true)}
+        >
           ✈️
         </button>
       </section>
@@ -222,6 +229,12 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Trip Plan Modal */}
+      <TripPlanModal
+        isOpen={showTripPlanModal}
+        onClose={() => setShowTripPlanModal(false)}
+      />
     </main>
   );
 };
