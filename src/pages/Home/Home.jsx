@@ -1,11 +1,17 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Home.css';
 import Banner from '../../components/Banner/Banner';
 import DestinationCard from '../../components/DestinationCard/DestinationCard';
 import TripPlanModal from '../../components/Modal/TripPlanModal';
 
 const Home = () => {
+  const navigate = useNavigate();
   const [showTripPlanModal, setShowTripPlanModal] = useState(false);
+
+  const handleCardClick = (destinationName) => {
+    navigate(`/destination/${destinationName.toLowerCase()}`);
+  };
 
   // Destination data with real image URLs
   const firstRowDestinations = [
@@ -144,24 +150,34 @@ const Home = () => {
           {/* First Row of Destinations */}
           <div className="destinations-grid">
             {firstRowDestinations.map((destination) => (
-              <DestinationCard
+              <div
                 key={destination.id}
-                name={destination.name}
-                image={destination.image}
-                duration={destination.duration}
-              />
+                onClick={() => handleCardClick(destination.name)}
+                style={{ cursor: 'pointer' }}
+              >
+                <DestinationCard
+                  name={destination.name}
+                  image={destination.image}
+                  duration={destination.duration}
+                />
+              </div>
             ))}
           </div>
 
           {/* Second Row of Destinations */}
           <div className="destinations-grid">
             {secondRowDestinations.map((destination) => (
-              <DestinationCard
+              <div
                 key={destination.id}
-                name={destination.name}
-                image={destination.image}
-                duration={destination.duration}
-              />
+                onClick={() => handleCardClick(destination.name)}
+                style={{ cursor: 'pointer' }}
+              >
+                <DestinationCard
+                  name={destination.name}
+                  image={destination.image}
+                  duration={destination.duration}
+                />
+              </div>
             ))}
           </div>
         </div>
@@ -175,12 +191,17 @@ const Home = () => {
 
           <div className="deals-grid">
             {specialDealsDestinations.map((destination) => (
-              <DestinationCard
+              <div
                 key={destination.id}
-                name={destination.name}
-                image={destination.image}
-                duration={destination.duration}
-              />
+                onClick={() => handleCardClick(destination.name)}
+                style={{ cursor: 'pointer' }}
+              >
+                <DestinationCard
+                  name={destination.name}
+                  image={destination.image}
+                  duration={destination.duration}
+                />
+              </div>
             ))}
           </div>
         </div>
@@ -219,12 +240,17 @@ const Home = () => {
 
           <div className="featured-grid">
             {featuredDestinations.map((destination) => (
-              <DestinationCard
+              <div
                 key={destination.id}
-                name={destination.name}
-                image={destination.image}
-                duration={destination.duration}
-              />
+                onClick={() => handleCardClick(destination.name)}
+                style={{ cursor: 'pointer' }}
+              >
+                <DestinationCard
+                  name={destination.name}
+                  image={destination.image}
+                  duration={destination.duration}
+                />
+              </div>
             ))}
           </div>
         </div>

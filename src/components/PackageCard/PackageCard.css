@@ -1,0 +1,241 @@
+.package-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.package-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.package-image-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 70%;
+  overflow: hidden;
+  background: #f0f0f0;
+}
+
+.package-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.package-card:hover .package-image {
+  transform: scale(1.1);
+}
+
+.package-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 5;
+}
+
+.package-card:hover .package-overlay {
+  opacity: 1;
+}
+
+.package-explore-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: 2px solid white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.package-explore-btn:hover {
+  background: white;
+  color: #667eea;
+  transform: scale(1.05);
+}
+
+.package-content {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.package-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 10px 0;
+  transition: all 0.3s ease;
+}
+
+.package-card:hover .package-title {
+  color: #667eea;
+}
+
+.package-duration {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0 0 8px 0;
+  font-weight: 500;
+}
+
+.package-description {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.5;
+  margin: 0 0 15px 0;
+  flex-grow: 1;
+}
+
+.package-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.package-price {
+  font-size: 1.3rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.package-view-details-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.package-view-details-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+}
+
+.package-view-details-btn:active {
+  transform: translateY(0);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  .package-title {
+    font-size: 1.1rem;
+  }
+
+  .package-price {
+    font-size: 1.2rem;
+  }
+
+  .package-explore-btn {
+    padding: 9px 20px;
+    font-size: 0.9rem;
+  }
+
+  .package-view-details-btn {
+    padding: 7px 16px;
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .package-content {
+    padding: 15px;
+  }
+
+  .package-title {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .package-duration {
+    font-size: 0.85rem;
+  }
+
+  .package-description {
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+  }
+
+  .package-price {
+    font-size: 1.1rem;
+  }
+
+  .package-explore-btn {
+    padding: 8px 18px;
+    font-size: 0.85rem;
+  }
+
+  .package-view-details-btn {
+    padding: 6px 14px;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .package-card {
+    border-radius: 12px;
+  }
+
+  .package-content {
+    padding: 12px;
+  }
+
+  .package-title {
+    font-size: 0.95rem;
+    margin-bottom: 6px;
+  }
+
+  .package-duration {
+    font-size: 0.8rem;
+  }
+
+  .package-description {
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+  }
+
+  .package-price {
+    font-size: 1rem;
+  }
+
+  .package-explore-btn {
+    padding: 7px 15px;
+    font-size: 0.8rem;
+  }
+
+  .package-view-details-btn {
+    padding: 5px 12px;
+    font-size: 0.75rem;
+  }
+}
