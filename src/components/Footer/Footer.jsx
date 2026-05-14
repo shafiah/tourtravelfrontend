@@ -49,12 +49,12 @@ const Footer = () => {
         <div className="footer-section">
           <h4 className="footer-title">Quick Links</h4>
           <ul className="footer-links">
-            <li><a href="http://localhost:3001/">Home</a></li>
-            <li><a href="#flights">Flights</a></li>
-            <li><a href="#hotels">Hotels</a></li>
-            <li><a href="#trains">Trains</a></li>
-            <li><a href="#bus">Bus</a></li>
-            <li><a href="#holidays">Holidays</a></li>
+            <li><a href="http://18.206.151.182/">Home</a></li>
+            <li><a href="http://18.206.151.182/">Flights</a></li>
+            <li><a href="http://18.206.151.182/">Hotels</a></li>
+            <li><a href="http://18.206.151.182/">Trains</a></li>
+            <li><a href="http://18.206.151.182/">Bus</a></li>
+            <li><a href="http://18.206.151.182/">Holidays</a></li>
             <li><a href="#contact">Contact Us</a></li>
           </ul>
         </div>

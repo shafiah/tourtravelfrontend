@@ -66,7 +66,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="navbar-logo">
             <span className="logo-icon">✈️</span>
-            <span className="logo-text">TourTravel</span>
+            <span className="logo-text" >TourTravel</span>
           </div>
 
           {/* Menu Toggle Button */}
@@ -77,19 +77,19 @@ const Navbar = () => {
           {/* Navigation Menu */}
           <ul className={`nav-menu ${isOpen ? 'active' : ''}`}>
             <li className="nav-item">
-              <a href="#flights" className="nav-link">Flights</a>
+              <a href="http://18.206.151.182/" className="nav-link">Flights</a>
             </li>
             <li className="nav-item">
-              <a href="#hotels" className="nav-link">Hotels</a>
+              <a href="http://18.206.151.182/" className="nav-link">Hotels</a>
             </li>
             <li className="nav-item">
-              <a href="#trains" className="nav-link">Trains</a>
+              <a href="http://18.206.151.182/" className="nav-link">Trains</a>
             </li>
             <li className="nav-item">
-              <a href="#bus" className="nav-link">Bus</a>
+              <a href="http://18.206.151.182/" className="nav-link">Bus</a>
             </li>
             <li className="nav-item">
-              <a href="http://localhost:3001/" className="nav-link">Holidays</a>
+              <a href="http://18.206.151.182/" className="nav-link">Holidays</a>
             </li>
           </ul>
 
