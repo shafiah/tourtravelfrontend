@@ -49,7 +49,7 @@ const Footer = () => {
         <div className="footer-section">
           <h4 className="footer-title">Quick Links</h4>
           <ul className="footer-links">
-            <li><a href="#home">Home</a></li>
+            <li><a href="http://localhost:3001/">Home</a></li>
             <li><a href="#flights">Flights</a></li>
             <li><a href="#hotels">Hotels</a></li>
             <li><a href="#trains">Trains</a></li>

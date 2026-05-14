@@ -345,6 +345,1649 @@ export const packageData = {
       cancellationPolicy: '45 days before - Full refund, 30-44 days - 25% cancellation charge, 15-29 days - 50% cancellation charge, Less than 15 days - No refund'
     }
   },
+  'maldives-honeymoon-package': {
+    id: 'maldives-honeymoon-package',
+    title: 'Maldives Honeymoon Package',
+    destination: 'Maldives',
+    duration: '5 Nights / 6 Days',
+    durationDays: 6,
+    pricePerPerson: '₹42,999',
+    price: '42999',
+    bannerImage: 'https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&w=1200&q=500',
+    tagline: 'Perfect romantic getaway in the paradise island of Bali',
+    overview: {
+      description: 'Create unforgettable memories in romantic Bali. This honeymoon package combines luxury stays, scenic landscapes, cultural experiences, and private romantic moments. From beachside resorts to ancient temples, experience the magic of Bali as a couple.',
+      highlights: [
+        'Private beach dinner on candlelight',
+        'Romantic sunset cruise',
+        'Couples spa and massage',
+        'Temple visits and cultural tours',
+        'Rice terrace exploration'
+      ]
+    },
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival & Romantic Welcome',
+        activities: [
+          'Arrive at Bali airport; private transfer to 5-star resort',
+          'Check-in and room decoration with rose petals',
+          'Welcome drink and fresh fruit',
+          'Relax at beach or pool',
+          'Romantic dinner at resort restaurant',
+          'Overnight at luxury beachfront resort'
+        ]
+      },
+      {
+        day: 2,
+        title: 'Spa & Beach',
+        activities: [
+          'Breakfast in bed',
+          'Couples massage and spa treatment',
+          'Beach relaxation and swimming',
+          'Lunch at beachside café',
+          'Sunset romantic walk on beach',
+          'Private beach dinner with candles',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 3,
+        title: 'Cultural Experience',
+        activities: [
+          'Breakfast at resort',
+          'Visit Tanah Lot temple (ancient clifftop temple)',
+          'Explore Tegallalang rice terraces',
+          'Photography session at scenic viewpoints',
+          'Traditional Balinese lunch',
+          'Visit local artisan market',
+          'Romantic dinner at traditional restaurant',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 4,
+        title: 'Adventure & Relaxation',
+        activities: [
+          'Breakfast at resort',
+          'Optional: Sunrise trek at Mount Batur',
+          'Return for spa and relaxation',
+          'Cooking class with local chef',
+          'Lunch prepared by you',
+          'Afternoon free for personal activities',
+          'Romantic sunset dinner cruise',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 5,
+        title: 'Last Adventure',
+        activities: [
+          'Breakfast with ocean view',
+          'Visit Ubud monkey sanctuary and royal palace',
+          'Shopping at local craft market',
+          'Lunch at traditional warung',
+          'Return to resort for rest and relaxation',
+          'Special romantic themed dinner dinner',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 6,
+        title: 'Departure',
+        activities: [
+          'Breakfast at resort',
+          'Last-minute shopping at duty-free',
+          'Lunch at restaurant',
+          'Transfer to Bali airport for departure'
+        ]
+      }
+    ],
+    inclusions: [
+      '5 nights at 5-star beachfront resort (couple room)',
+      'Daily breakfast buffet',
+      'All meals as mentioned',
+      'Couples spa and massage package',
+      'Private beach dinner',
+      'Sunset dinner cruise',
+      'Cooking class with local chef',
+      'All entrance fees to attractions',
+      'Private air-conditioned vehicle and driver',
+      'Professional tour guide',
+      'Travel insurance'
+    ],
+    exclusions: [
+      'International flights',
+      'Visa fees',
+      'Personal shopping and entertainment',
+      'Optional activities (Mount Batur trek)',
+      'Tips and gratuities',
+      'Alcoholic beverages',
+      'Any items not mentioned'
+    ],
+    additionalInfo: {
+      bestTimeToVisit: 'April to October (dry season)',
+      howToBringCurrency: 'Indonesian Rupiah (IDR) - ATMs widely available',
+      documentations: 'Passport with 6 months validity, visa on arrival available for Indians',
+      travelTips: [
+        'Carry lightweight, breathable clothing',
+        'Apply high SPF sunscreen regularly',
+        'Respect cultural norms and dress codes at temples',
+        'Negotiate prices at markets politely',
+        'Stay hydrated in tropical climate',
+        'Photography allowed but ask at temples',
+        'Keep valuables secured in resort safe'
+      ],
+      cancellationPolicy: '45 days before - Full refund, 30-44 days - 25% cancellation charge, 15-29 days - 50% cancellation charge, Less than 15 days - No refund'
+    }
+  },
+  'kashmir-honeymoon-package': {
+    id: 'kashmir-honeymoon-package',
+    title: 'Kashmir Honeymoon Package',
+    destination: 'Kashmir',
+    duration: '5 Nights / 6 Days',
+    durationDays: 6,
+    pricePerPerson: '₹42,999',
+    price: '42999',
+    bannerImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=500&fit=crop',
+    tagline: 'Perfect romantic getaway in the paradise island of Kashmir',
+    overview: {
+      description: 'Create unforgettable memories in romantic Kashmir. This honeymoon package combines luxury stays, scenic landscapes, cultural experiences, and private romantic moments. From snow-capped mountains to serene lakes, experience the magic of Kashmir as a couple.',
+      highlights: [
+        'Private beach dinner on candlelight',
+        'Romantic sunset cruise',
+        'Couples spa and massage',
+        'Temple visits and cultural tours',
+        'Rice terrace exploration'
+      ]
+    },
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival & Romantic Welcome',
+        activities: [
+          'Arrive at Bali airport; private transfer to 5-star resort',
+          'Check-in and room decoration with rose petals',
+          'Welcome drink and fresh fruit',
+          'Relax at beach or pool',
+          'Romantic dinner at resort restaurant',
+          'Overnight at luxury beachfront resort'
+        ]
+      },
+      {
+        day: 2,
+        title: 'Spa & Beach',
+        activities: [
+          'Breakfast in bed',
+          'Couples massage and spa treatment',
+          'Beach relaxation and swimming',
+          'Lunch at beachside café',
+          'Sunset romantic walk on beach',
+          'Private beach dinner with candles',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 3,
+        title: 'Cultural Experience',
+        activities: [
+          'Breakfast at resort',
+          'Visit Tanah Lot temple (ancient clifftop temple)',
+          'Explore Tegallalang rice terraces',
+          'Photography session at scenic viewpoints',
+          'Traditional Balinese lunch',
+          'Visit local artisan market',
+          'Romantic dinner at traditional restaurant',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 4,
+        title: 'Adventure & Relaxation',
+        activities: [
+          'Breakfast at resort',
+          'Optional: Sunrise trek at Mount Batur',
+          'Return for spa and relaxation',
+          'Cooking class with local chef',
+          'Lunch prepared by you',
+          'Afternoon free for personal activities',
+          'Romantic sunset dinner cruise',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 5,
+        title: 'Last Adventure',
+        activities: [
+          'Breakfast with ocean view',
+          'Visit Ubud monkey sanctuary and royal palace',
+          'Shopping at local craft market',
+          'Lunch at traditional warung',
+          'Return to resort for rest and relaxation',
+          'Special romantic themed dinner dinner',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 6,
+        title: 'Departure',
+        activities: [
+          'Breakfast at resort',
+          'Last-minute shopping at duty-free',
+          'Lunch at restaurant',
+          'Transfer to Bali airport for departure'
+        ]
+      }
+    ],
+    inclusions: [
+      '5 nights at 5-star beachfront resort (couple room)',
+      'Daily breakfast buffet',
+      'All meals as mentioned',
+      'Couples spa and massage package',
+      'Private beach dinner',
+      'Sunset dinner cruise',
+      'Cooking class with local chef',
+      'All entrance fees to attractions',
+      'Private air-conditioned vehicle and driver',
+      'Professional tour guide',
+      'Travel insurance'
+    ],
+    exclusions: [
+      'International flights',
+      'Visa fees',
+      'Personal shopping and entertainment',
+      'Optional activities (Mount Batur trek)',
+      'Tips and gratuities',
+      'Alcoholic beverages',
+      'Any items not mentioned'
+    ],
+    additionalInfo: {
+      bestTimeToVisit: 'April to October (dry season)',
+      howToBringCurrency: 'Indonesian Rupiah (IDR) - ATMs widely available',
+      documentations: 'Passport with 6 months validity, visa on arrival available for Indians',
+      travelTips: [
+        'Carry lightweight, breathable clothing',
+        'Apply high SPF sunscreen regularly',
+        'Respect cultural norms and dress codes at temples',
+        'Negotiate prices at markets politely',
+        'Stay hydrated in tropical climate',
+        'Photography allowed but ask at temples',
+        'Keep valuables secured in resort safe'
+      ],
+      cancellationPolicy: '45 days before - Full refund, 30-44 days - 25% cancellation charge, 15-29 days - 50% cancellation charge, Less than 15 days - No refund'
+    }
+  },
+
+  'goa-honeymoon-package': {
+    id: 'goa-honeymoon-package',
+    title: 'Goa Honeymoon Package',
+    destination: 'Goa',
+    duration: '5 Nights / 6 Days',
+    durationDays: 6,
+    pricePerPerson: '₹42,999',
+    price: '42999',
+    bannerImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&h=500&fit=crop',
+    tagline: 'Perfect romantic getaway in the paradise island of Goa',
+    overview: {
+      description: 'Create unforgettable memories in romantic Goa. This honeymoon package combines luxury stays, scenic landscapes, cultural experiences, and private romantic moments. From snow-capped mountains to serene lakes, experience the magic of Goa as a couple.',
+      highlights: [
+        'Private beach dinner on candlelight',
+        'Romantic sunset cruise',
+        'Couples spa and massage',
+        'Temple visits and cultural tours',
+        'Rice terrace exploration'
+      ]
+    },
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival & Romantic Welcome',
+        activities: [
+          'Arrive at Bali airport; private transfer to 5-star resort',
+          'Check-in and room decoration with rose petals',
+          'Welcome drink and fresh fruit',
+          'Relax at beach or pool',
+          'Romantic dinner at resort restaurant',
+          'Overnight at luxury beachfront resort'
+        ]
+      },
+      {
+        day: 2,
+        title: 'Spa & Beach',
+        activities: [
+          'Breakfast in bed',
+          'Couples massage and spa treatment',
+          'Beach relaxation and swimming',
+          'Lunch at beachside café',
+          'Sunset romantic walk on beach',
+          'Private beach dinner with candles',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 3,
+        title: 'Cultural Experience',
+        activities: [
+          'Breakfast at resort',
+          'Visit Tanah Lot temple (ancient clifftop temple)',
+          'Explore Tegallalang rice terraces',
+          'Photography session at scenic viewpoints',
+          'Traditional Balinese lunch',
+          'Visit local artisan market',
+          'Romantic dinner at traditional restaurant',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 4,
+        title: 'Adventure & Relaxation',
+        activities: [
+          'Breakfast at resort',
+          'Optional: Sunrise trek at Mount Batur',
+          'Return for spa and relaxation',
+          'Cooking class with local chef',
+          'Lunch prepared by you',
+          'Afternoon free for personal activities',
+          'Romantic sunset dinner cruise',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 5,
+        title: 'Last Adventure',
+        activities: [
+          'Breakfast with ocean view',
+          'Visit Ubud monkey sanctuary and royal palace',
+          'Shopping at local craft market',
+          'Lunch at traditional warung',
+          'Return to resort for rest and relaxation',
+          'Special romantic themed dinner dinner',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 6,
+        title: 'Departure',
+        activities: [
+          'Breakfast at resort',
+          'Last-minute shopping at duty-free',
+          'Lunch at restaurant',
+          'Transfer to Bali airport for departure'
+        ]
+      }
+    ],
+    inclusions: [
+      '5 nights at 5-star beachfront resort (couple room)',
+      'Daily breakfast buffet',
+      'All meals as mentioned',
+      'Couples spa and massage package',
+      'Private beach dinner',
+      'Sunset dinner cruise',
+      'Cooking class with local chef',
+      'All entrance fees to attractions',
+      'Private air-conditioned vehicle and driver',
+      'Professional tour guide',
+      'Travel insurance'
+    ],
+    exclusions: [
+      'International flights',
+      'Visa fees',
+      'Personal shopping and entertainment',
+      'Optional activities (Mount Batur trek)',
+      'Tips and gratuities',
+      'Alcoholic beverages',
+      'Any items not mentioned'
+    ],
+    additionalInfo: {
+      bestTimeToVisit: 'April to October (dry season)',
+      howToBringCurrency: 'Indonesian Rupiah (IDR) - ATMs widely available',
+      documentations: 'Passport with 6 months validity, visa on arrival available for Indians',
+      travelTips: [
+        'Carry lightweight, breathable clothing',
+        'Apply high SPF sunscreen regularly',
+        'Respect cultural norms and dress codes at temples',
+        'Negotiate prices at markets politely',
+        'Stay hydrated in tropical climate',
+        'Photography allowed but ask at temples',
+        'Keep valuables secured in resort safe'
+      ],
+      cancellationPolicy: '45 days before - Full refund, 30-44 days - 25% cancellation charge, 15-29 days - 50% cancellation charge, Less than 15 days - No refund'
+    }
+  },
+
+  'manali-honeymoon-package': {
+    id: 'manali-honeymoon-package',
+    title: 'Manali Honeymoon Package',
+    destination: 'Manali',
+    duration: '5 Nights / 6 Days',
+    durationDays: 6,
+    pricePerPerson: '₹42,999',
+    price: '42999',
+    bannerImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=400&fit=crop',
+    tagline: 'Perfect romantic getaway in the paradise island of Manali',
+    overview: {
+      description: 'Create unforgettable memories in romantic Goa. This honeymoon package combines luxury stays, scenic landscapes, cultural experiences, and private romantic moments. From snow-capped mountains to serene lakes, experience the magic of Goa as a couple.',
+      highlights: [
+        'Private beach dinner on candlelight',
+        'Romantic sunset cruise',
+        'Couples spa and massage',
+        'Temple visits and cultural tours',
+        'Rice terrace exploration'
+      ]
+    },
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival & Romantic Welcome',
+        activities: [
+          'Arrive at Bali airport; private transfer to 5-star resort',
+          'Check-in and room decoration with rose petals',
+          'Welcome drink and fresh fruit',
+          'Relax at beach or pool',
+          'Romantic dinner at resort restaurant',
+          'Overnight at luxury beachfront resort'
+        ]
+      },
+      {
+        day: 2,
+        title: 'Spa & Beach',
+        activities: [
+          'Breakfast in bed',
+          'Couples massage and spa treatment',
+          'Beach relaxation and swimming',
+          'Lunch at beachside café',
+          'Sunset romantic walk on beach',
+          'Private beach dinner with candles',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 3,
+        title: 'Cultural Experience',
+        activities: [
+          'Breakfast at resort',
+          'Visit Tanah Lot temple (ancient clifftop temple)',
+          'Explore Tegallalang rice terraces',
+          'Photography session at scenic viewpoints',
+          'Traditional Balinese lunch',
+          'Visit local artisan market',
+          'Romantic dinner at traditional restaurant',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 4,
+        title: 'Adventure & Relaxation',
+        activities: [
+          'Breakfast at resort',
+          'Optional: Sunrise trek at Mount Batur',
+          'Return for spa and relaxation',
+          'Cooking class with local chef',
+          'Lunch prepared by you',
+          'Afternoon free for personal activities',
+          'Romantic sunset dinner cruise',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 5,
+        title: 'Last Adventure',
+        activities: [
+          'Breakfast with ocean view',
+          'Visit Ubud monkey sanctuary and royal palace',
+          'Shopping at local craft market',
+          'Lunch at traditional warung',
+          'Return to resort for rest and relaxation',
+          'Special romantic themed dinner dinner',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 6,
+        title: 'Departure',
+        activities: [
+          'Breakfast at resort',
+          'Last-minute shopping at duty-free',
+          'Lunch at restaurant',
+          'Transfer to Bali airport for departure'
+        ]
+      }
+    ],
+    inclusions: [
+      '5 nights at 5-star beachfront resort (couple room)',
+      'Daily breakfast buffet',
+      'All meals as mentioned',
+      'Couples spa and massage package',
+      'Private beach dinner',
+      'Sunset dinner cruise',
+      'Cooking class with local chef',
+      'All entrance fees to attractions',
+      'Private air-conditioned vehicle and driver',
+      'Professional tour guide',
+      'Travel insurance'
+    ],
+    exclusions: [
+      'International flights',
+      'Visa fees',
+      'Personal shopping and entertainment',
+      'Optional activities (Mount Batur trek)',
+      'Tips and gratuities',
+      'Alcoholic beverages',
+      'Any items not mentioned'
+    ],
+    additionalInfo: {
+      bestTimeToVisit: 'April to October (dry season)',
+      howToBringCurrency: 'Indonesian Rupiah (IDR) - ATMs widely available',
+      documentations: 'Passport with 6 months validity, visa on arrival available for Indians',
+      travelTips: [
+        'Carry lightweight, breathable clothing',
+        'Apply high SPF sunscreen regularly',
+        'Respect cultural norms and dress codes at temples',
+        'Negotiate prices at markets politely',
+        'Stay hydrated in tropical climate',
+        'Photography allowed but ask at temples',
+        'Keep valuables secured in resort safe'
+      ],
+      cancellationPolicy: '45 days before - Full refund, 30-44 days - 25% cancellation charge, 15-29 days - 50% cancellation charge, Less than 15 days - No refund'
+    }
+  },
+
+  'thailand-honeymoon-package': {
+    id: 'thailand-honeymoon-package',
+    title: 'Thailand Honeymoon Package',
+    destination: 'Thailand',
+    duration: '5 Nights / 6 Days',
+    durationDays: 6,
+    pricePerPerson: '₹42,999',
+    price: '42999',
+    bannerImage: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1200&q=400',
+    tagline: 'Perfect romantic getaway in the paradise island of Thailand',
+    overview: {
+      description: 'Create unforgettable memories in romantic Thailand. This honeymoon package combines luxury stays, scenic landscapes, cultural experiences, and private romantic moments. From snow-capped mountains to serene lakes, experience the magic of Thailand as a couple.',
+      highlights: [
+        'Private beach dinner on candlelight',
+        'Romantic sunset cruise',
+        'Couples spa and massage',
+        'Temple visits and cultural tours',
+        'Rice terrace exploration'
+      ]
+    },
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival & Romantic Welcome',
+        activities: [
+          'Arrive at Thailand airport; private transfer to 5-star resort',
+          'Check-in and room decoration with rose petals',
+          'Welcome drink and fresh fruit',
+          'Relax at beach or pool',
+          'Romantic dinner at resort restaurant',
+          'Overnight at luxury beachfront resort'
+        ]
+      },
+      {
+        day: 2,
+        title: 'Spa & Beach',
+        activities: [
+          'Breakfast in bed',
+          'Couples massage and spa treatment',
+          'Beach relaxation and swimming',
+          'Lunch at beachside café',
+          'Sunset romantic walk on beach',
+          'Private beach dinner with candles',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 3,
+        title: 'Cultural Experience',
+        activities: [
+          'Breakfast at resort',
+          'Visit Tanah Lot temple (ancient clifftop temple)',
+          'Explore Tegallalang rice terraces',
+          'Photography session at scenic viewpoints',
+          'Traditional Balinese lunch',
+          'Visit local artisan market',
+          'Romantic dinner at traditional restaurant',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 4,
+        title: 'Adventure & Relaxation',
+        activities: [
+          'Breakfast at resort',
+          'Optional: Sunrise trek at Mount Batur',
+          'Return for spa and relaxation',
+          'Cooking class with local chef',
+          'Lunch prepared by you',
+          'Afternoon free for personal activities',
+          'Romantic sunset dinner cruise',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 5,
+        title: 'Last Adventure',
+        activities: [
+          'Breakfast with ocean view',
+          'Visit Ubud monkey sanctuary and royal palace',
+          'Shopping at local craft market',
+          'Lunch at traditional warung',
+          'Return to resort for rest and relaxation',
+          'Special romantic themed dinner dinner',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 6,
+        title: 'Departure',
+        activities: [
+          'Breakfast at resort',
+          'Last-minute shopping at duty-free',
+          'Lunch at restaurant',
+          'Transfer to Bali airport for departure'
+        ]
+      }
+    ],
+    inclusions: [
+      '5 nights at 5-star beachfront resort (couple room)',
+      'Daily breakfast buffet',
+      'All meals as mentioned',
+      'Couples spa and massage package',
+      'Private beach dinner',
+      'Sunset dinner cruise',
+      'Cooking class with local chef',
+      'All entrance fees to attractions',
+      'Private air-conditioned vehicle and driver',
+      'Professional tour guide',
+      'Travel insurance'
+    ],
+    exclusions: [
+      'International flights',
+      'Visa fees',
+      'Personal shopping and entertainment',
+      'Optional activities (Mount Batur trek)',
+      'Tips and gratuities',
+      'Alcoholic beverages',
+      'Any items not mentioned'
+    ],
+    additionalInfo: {
+      bestTimeToVisit: 'April to October (dry season)',
+      howToBringCurrency: 'Indonesian Rupiah (IDR) - ATMs widely available',
+      documentations: 'Passport with 6 months validity, visa on arrival available for Indians',
+      travelTips: [
+        'Carry lightweight, breathable clothing',
+        'Apply high SPF sunscreen regularly',
+        'Respect cultural norms and dress codes at temples',
+        'Negotiate prices at markets politely',
+        'Stay hydrated in tropical climate',
+        'Photography allowed but ask at temples',
+        'Keep valuables secured in resort safe'
+      ],
+      cancellationPolicy: '45 days before - Full refund, 30-44 days - 25% cancellation charge, 15-29 days - 50% cancellation charge, Less than 15 days - No refund'
+    }
+  },
+
+  'switzerland-honeymoon-package': {
+    id: 'switzerland-honeymoon-package',
+    title: 'Switzerland Honeymoon Package',
+    destination: 'Switzerland',
+    duration: '5 Nights / 6 Days',
+    durationDays: 6,
+    pricePerPerson: '₹42,999',
+    price: '42999',
+    bannerImage: 'https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1200&h=400&fit=crop',
+    tagline: 'Perfect romantic getaway in the paradise island of Switzerland',
+    overview: {
+      description: 'Create unforgettable memories in romantic Switzerland. This honeymoon package combines luxury stays, scenic landscapes, cultural experiences, and private romantic moments. From snow-capped mountains to serene lakes, experience the magic of Switzerland as a couple.',
+      highlights: [
+        'Private beach dinner on candlelight',
+        'Romantic sunset cruise',
+        'Couples spa and massage',
+        'Temple visits and cultural tours',
+        'Rice terrace exploration'
+      ]
+    },
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival & Romantic Welcome',
+        activities: [
+          'Arrive at Switzerland airport; private transfer to 5-star resort',
+          'Check-in and room decoration with rose petals',
+          'Welcome drink and fresh fruit',
+          'Relax at beach or pool',
+          'Romantic dinner at resort restaurant',
+          'Overnight at luxury beachfront resort'
+        ]
+      },
+      {
+        day: 2,
+        title: 'Spa & Beach',
+        activities: [
+          'Breakfast in bed',
+          'Couples massage and spa treatment',
+          'Beach relaxation and swimming',
+          'Lunch at beachside café',
+          'Sunset romantic walk on beach',
+          'Private beach dinner with candles',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 3,
+        title: 'Cultural Experience',
+        activities: [
+          'Breakfast at resort',
+          'Visit Tanah Lot temple (ancient clifftop temple)',
+          'Explore Tegallalang rice terraces',
+          'Photography session at scenic viewpoints',
+          'Traditional Balinese lunch',
+          'Visit local artisan market',
+          'Romantic dinner at traditional restaurant',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 4,
+        title: 'Adventure & Relaxation',
+        activities: [
+          'Breakfast at resort',
+          'Optional: Sunrise trek at Mount Batur',
+          'Return for spa and relaxation',
+          'Cooking class with local chef',
+          'Lunch prepared by you',
+          'Afternoon free for personal activities',
+          'Romantic sunset dinner cruise',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 5,
+        title: 'Last Adventure',
+        activities: [
+          'Breakfast with ocean view',
+          'Visit Ubud monkey sanctuary and royal palace',
+          'Shopping at local craft market',
+          'Lunch at traditional warung',
+          'Return to resort for rest and relaxation',
+          'Special romantic themed dinner dinner',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 6,
+        title: 'Departure',
+        activities: [
+          'Breakfast at resort',
+          'Last-minute shopping at duty-free',
+          'Lunch at restaurant',
+          'Transfer to Bali airport for departure'
+        ]
+      }
+    ],
+    inclusions: [
+      '5 nights at 5-star beachfront resort (couple room)',
+      'Daily breakfast buffet',
+      'All meals as mentioned',
+      'Couples spa and massage package',
+      'Private beach dinner',
+      'Sunset dinner cruise',
+      'Cooking class with local chef',
+      'All entrance fees to attractions',
+      'Private air-conditioned vehicle and driver',
+      'Professional tour guide',
+      'Travel insurance'
+    ],
+    exclusions: [
+      'International flights',
+      'Visa fees',
+      'Personal shopping and entertainment',
+      'Optional activities (Mount Batur trek)',
+      'Tips and gratuities',
+      'Alcoholic beverages',
+      'Any items not mentioned'
+    ],
+    additionalInfo: {
+      bestTimeToVisit: 'April to October (dry season)',
+      howToBringCurrency: 'Indonesian Rupiah (IDR) - ATMs widely available',
+      documentations: 'Passport with 6 months validity, visa on arrival available for Indians',
+      travelTips: [
+        'Carry lightweight, breathable clothing',
+        'Apply high SPF sunscreen regularly',
+        'Respect cultural norms and dress codes at temples',
+        'Negotiate prices at markets politely',
+        'Stay hydrated in tropical climate',
+        'Photography allowed but ask at temples',
+        'Keep valuables secured in resort safe'
+      ],
+      cancellationPolicy: '45 days before - Full refund, 30-44 days - 25% cancellation charge, 15-29 days - 50% cancellation charge, Less than 15 days - No refund'
+    }
+  },
+
+  'singapore-honeymoon-package': {
+    id: 'singapore-honeymoon-package',
+    title: 'Singapore Honeymoon Package',
+    destination: 'Singapore',
+    duration: '5 Nights / 6 Days',
+    durationDays: 6,
+    pricePerPerson: '₹42,999',
+    price: '42999',
+    bannerImage: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&h=400&fit=crop',
+    tagline: 'Perfect romantic getaway in the paradise island of Singapore',
+    overview: {
+      description: 'Create unforgettable memories in romantic Singapore. This honeymoon package combines luxury stays, scenic landscapes, cultural experiences, and private romantic moments. From modern skyscrapers to serene gardens, experience the magic of Singapore as a couple.',
+      highlights: [
+        'Private beach dinner on candlelight',
+        'Romantic sunset cruise',
+        'Couples spa and massage',
+        'Temple visits and cultural tours',
+        'Rice terrace exploration'
+      ]
+    },
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival & Romantic Welcome',
+        activities: [
+          'Arrive at Singapore airport; private transfer to 5-star resort',
+          'Check-in and room decoration with rose petals',
+          'Welcome drink and fresh fruit',
+          'Relax at beach or pool',
+          'Romantic dinner at resort restaurant',
+          'Overnight at luxury beachfront resort'
+        ]
+      },
+      {
+        day: 2,
+        title: 'Spa & Beach',
+        activities: [
+          'Breakfast in bed',
+          'Couples massage and spa treatment',
+          'Beach relaxation and swimming',
+          'Lunch at beachside café',
+          'Sunset romantic walk on beach',
+          'Private beach dinner with candles',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 3,
+        title: 'Cultural Experience',
+        activities: [
+          'Breakfast at resort',
+          'Visit Tanah Lot temple (ancient clifftop temple)',
+          'Explore Tegallalang rice terraces',
+          'Photography session at scenic viewpoints',
+          'Traditional Balinese lunch',
+          'Visit local artisan market',
+          'Romantic dinner at traditional restaurant',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 4,
+        title: 'Adventure & Relaxation',
+        activities: [
+          'Breakfast at resort',
+          'Optional: Sunrise trek at Mount Batur',
+          'Return for spa and relaxation',
+          'Cooking class with local chef',
+          'Lunch prepared by you',
+          'Afternoon free for personal activities',
+          'Romantic sunset dinner cruise',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 5,
+        title: 'Last Adventure',
+        activities: [
+          'Breakfast with ocean view',
+          'Visit Ubud monkey sanctuary and royal palace',
+          'Shopping at local craft market',
+          'Lunch at traditional warung',
+          'Return to resort for rest and relaxation',
+          'Special romantic themed dinner dinner',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 6,
+        title: 'Departure',
+        activities: [
+          'Breakfast at resort',
+          'Last-minute shopping at duty-free',
+          'Lunch at restaurant',
+          'Transfer to Bali airport for departure'
+        ]
+      }
+    ],
+    inclusions: [
+      '5 nights at 5-star beachfront resort (couple room)',
+      'Daily breakfast buffet',
+      'All meals as mentioned',
+      'Couples spa and massage package',
+      'Private beach dinner',
+      'Sunset dinner cruise',
+      'Cooking class with local chef',
+      'All entrance fees to attractions',
+      'Private air-conditioned vehicle and driver',
+      'Professional tour guide',
+      'Travel insurance'
+    ],
+    exclusions: [
+      'International flights',
+      'Visa fees',
+      'Personal shopping and entertainment',
+      'Optional activities (Mount Batur trek)',
+      'Tips and gratuities',
+      'Alcoholic beverages',
+      'Any items not mentioned'
+    ],
+    additionalInfo: {
+      bestTimeToVisit: 'April to October (dry season)',
+      howToBringCurrency: 'Indonesian Rupiah (IDR) - ATMs widely available',
+      documentations: 'Passport with 6 months validity, visa on arrival available for Indians',
+      travelTips: [
+        'Carry lightweight, breathable clothing',
+        'Apply high SPF sunscreen regularly',
+        'Respect cultural norms and dress codes at temples',
+        'Negotiate prices at markets politely',
+        'Stay hydrated in tropical climate',
+        'Photography allowed but ask at temples',
+        'Keep valuables secured in resort safe'
+      ],
+      cancellationPolicy: '45 days before - Full refund, 30-44 days - 25% cancellation charge, 15-29 days - 50% cancellation charge, Less than 15 days - No refund'
+    }
+  },
+
+  'paris-honeymoon-package': {
+    id: 'paris-honeymoon-package',
+    title: 'Paris Honeymoon Package',
+    destination: 'Paris',
+    duration: '5 Nights / 6 Days',
+    durationDays: 6,
+    pricePerPerson: '₹42,999',
+    price: '42999',
+    bannerImage: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&h=500&fit=crop',
+    tagline: 'Perfect romantic getaway in the paradise island of Paris',
+    overview: {
+      description: 'Create unforgettable memories in romantic Paris. This honeymoon package combines luxury stays, scenic landscapes, cultural experiences, and private romantic moments. From modern skyscrapers to serene gardens, experience the magic of Paris as a couple.',
+      highlights: [
+        'Private beach dinner on candlelight',
+        'Romantic sunset cruise',
+        'Couples spa and massage',
+        'Temple visits and cultural tours',
+        'Rice terrace exploration'
+      ]
+    },
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival & Romantic Welcome',
+        activities: [
+          'Arrive at Paris airport; private transfer to 5-star resort',
+          'Check-in and room decoration with rose petals',
+          'Welcome drink and fresh fruit',
+          'Relax at beach or pool',
+          'Romantic dinner at resort restaurant',
+          'Overnight at luxury beachfront resort'
+        ]
+      },
+      {
+        day: 2,
+        title: 'Spa & Beach',
+        activities: [
+          'Breakfast in bed',
+          'Couples massage and spa treatment',
+          'Beach relaxation and swimming',
+          'Lunch at beachside café',
+          'Sunset romantic walk on beach',
+          'Private beach dinner with candles',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 3,
+        title: 'Cultural Experience',
+        activities: [
+          'Breakfast at resort',
+          'Visit Tanah Lot temple (ancient clifftop temple)',
+          'Explore Tegallalang rice terraces',
+          'Photography session at scenic viewpoints',
+          'Traditional Balinese lunch',
+          'Visit local artisan market',
+          'Romantic dinner at traditional restaurant',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 4,
+        title: 'Adventure & Relaxation',
+        activities: [
+          'Breakfast at resort',
+          'Optional: Sunrise trek at Mount Batur',
+          'Return for spa and relaxation',
+          'Cooking class with local chef',
+          'Lunch prepared by you',
+          'Afternoon free for personal activities',
+          'Romantic sunset dinner cruise',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 5,
+        title: 'Last Adventure',
+        activities: [
+          'Breakfast with ocean view',
+          'Visit Ubud monkey sanctuary and royal palace',
+          'Shopping at local craft market',
+          'Lunch at traditional warung',
+          'Return to resort for rest and relaxation',
+          'Special romantic themed dinner dinner',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 6,
+        title: 'Departure',
+        activities: [
+          'Breakfast at resort',
+          'Last-minute shopping at duty-free',
+          'Lunch at restaurant',
+          'Transfer to Bali airport for departure'
+        ]
+      }
+    ],
+    inclusions: [
+      '5 nights at 5-star beachfront resort (couple room)',
+      'Daily breakfast buffet',
+      'All meals as mentioned',
+      'Couples spa and massage package',
+      'Private beach dinner',
+      'Sunset dinner cruise',
+      'Cooking class with local chef',
+      'All entrance fees to attractions',
+      'Private air-conditioned vehicle and driver',
+      'Professional tour guide',
+      'Travel insurance'
+    ],
+    exclusions: [
+      'International flights',
+      'Visa fees',
+      'Personal shopping and entertainment',
+      'Optional activities (Mount Batur trek)',
+      'Tips and gratuities',
+      'Alcoholic beverages',
+      'Any items not mentioned'
+    ],
+    additionalInfo: {
+      bestTimeToVisit: 'April to October (dry season)',
+      howToBringCurrency: 'Indonesian Rupiah (IDR) - ATMs widely available',
+      documentations: 'Passport with 6 months validity, visa on arrival available for Indians',
+      travelTips: [
+        'Carry lightweight, breathable clothing',
+        'Apply high SPF sunscreen regularly',
+        'Respect cultural norms and dress codes at temples',
+        'Negotiate prices at markets politely',
+        'Stay hydrated in tropical climate',
+        'Photography allowed but ask at temples',
+        'Keep valuables secured in resort safe'
+      ],
+      cancellationPolicy: '45 days before - Full refund, 30-44 days - 25% cancellation charge, 15-29 days - 50% cancellation charge, Less than 15 days - No refund'
+    }
+  },
+
+  'norway-honeymoon-package': {
+    id: 'norway-honeymoon-package',
+    title: 'Norway Honeymoon Package',
+    destination: 'Norway',
+    duration: '5 Nights / 6 Days',
+    durationDays: 6,
+    pricePerPerson: '₹42,999',
+    price: '42999',
+    bannerImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=400&fit=crop',
+    tagline: 'Perfect romantic getaway in the paradise island of Norway',
+    overview: {
+      description: 'Create unforgettable memories in romantic Norway. This honeymoon package combines luxury stays, scenic landscapes, cultural experiences, and private romantic moments. From modern skyscrapers to serene gardens, experience the magic of Norway as a couple.',
+      highlights: [
+        'Private beach dinner on candlelight',
+        'Romantic sunset cruise',
+        'Couples spa and massage',
+        'Temple visits and cultural tours',
+        'Rice terrace exploration'
+      ]
+    },
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival & Romantic Welcome',
+        activities: [
+          'Arrive at Oslo airport; private transfer to 5-star resort',
+          'Check-in and room decoration with rose petals',
+          'Welcome drink and fresh fruit',
+          'Relax at beach or pool',
+          'Romantic dinner at resort restaurant',
+          'Overnight at luxury beachfront resort'
+        ]
+      },
+      {
+        day: 2,
+        title: 'Spa & Beach',
+        activities: [
+          'Breakfast in bed',
+          'Couples massage and spa treatment',
+          'Beach relaxation and swimming',
+          'Lunch at beachside café',
+          'Sunset romantic walk on beach',
+          'Private beach dinner with candles',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 3,
+        title: 'Cultural Experience',
+        activities: [
+          'Breakfast at resort',
+          'Visit Tanah Lot temple (ancient clifftop temple)',
+          'Explore Tegallalang rice terraces',
+          'Photography session at scenic viewpoints',
+          'Traditional Balinese lunch',
+          'Visit local artisan market',
+          'Romantic dinner at traditional restaurant',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 4,
+        title: 'Adventure & Relaxation',
+        activities: [
+          'Breakfast at resort',
+          'Optional: Sunrise trek at Mount Batur',
+          'Return for spa and relaxation',
+          'Cooking class with local chef',
+          'Lunch prepared by you',
+          'Afternoon free for personal activities',
+          'Romantic sunset dinner cruise',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 5,
+        title: 'Last Adventure',
+        activities: [
+          'Breakfast with ocean view',
+          'Visit Ubud monkey sanctuary and royal palace',
+          'Shopping at local craft market',
+          'Lunch at traditional warung',
+          'Return to resort for rest and relaxation',
+          'Special romantic themed dinner dinner',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 6,
+        title: 'Departure',
+        activities: [
+          'Breakfast at resort',
+          'Last-minute shopping at duty-free',
+          'Lunch at restaurant',
+          'Transfer to Bali airport for departure'
+        ]
+      }
+    ],
+    inclusions: [
+      '5 nights at 5-star beachfront resort (couple room)',
+      'Daily breakfast buffet',
+      'All meals as mentioned',
+      'Couples spa and massage package',
+      'Private beach dinner',
+      'Sunset dinner cruise',
+      'Cooking class with local chef',
+      'All entrance fees to attractions',
+      'Private air-conditioned vehicle and driver',
+      'Professional tour guide',
+      'Travel insurance'
+    ],
+    exclusions: [
+      'International flights',
+      'Visa fees',
+      'Personal shopping and entertainment',
+      'Optional activities (Mount Batur trek)',
+      'Tips and gratuities',
+      'Alcoholic beverages',
+      'Any items not mentioned'
+    ],
+    additionalInfo: {
+      bestTimeToVisit: 'April to October (dry season)',
+      howToBringCurrency: 'Indonesian Rupiah (IDR) - ATMs widely available',
+      documentations: 'Passport with 6 months validity, visa on arrival available for Indians',
+      travelTips: [
+        'Carry lightweight, breathable clothing',
+        'Apply high SPF sunscreen regularly',
+        'Respect cultural norms and dress codes at temples',
+        'Negotiate prices at markets politely',
+        'Stay hydrated in tropical climate',
+        'Photography allowed but ask at temples',
+        'Keep valuables secured in resort safe'
+      ],
+      cancellationPolicy: '45 days before - Full refund, 30-44 days - 25% cancellation charge, 15-29 days - 50% cancellation charge, Less than 15 days - No refund'
+    }
+  },
+
+  'newzealand-honeymoon-package': {
+    id: 'newzealand-honeymoon-package',
+    title: 'New Zealand Honeymoon Package',
+    destination: 'New Zealand',
+    duration: '5 Nights / 6 Days',
+    durationDays: 6,
+    pricePerPerson: '₹42,999',
+    price: '42999',
+    bannerImage: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&h=400&fit=crop',
+    tagline: 'Perfect romantic getaway in the paradise island of New Zealand',
+    overview: {
+      description: 'Create unforgettable memories in romantic New Zealand. This honeymoon package combines luxury stays, scenic landscapes, cultural experiences, and private romantic moments. From modern skyscrapers to serene gardens, experience the magic of New Zealand as a couple.',
+      highlights: [
+        'Private beach dinner on candlelight',
+        'Romantic sunset cruise',
+        'Couples spa and massage',
+        'Temple visits and cultural tours',
+        'Rice terrace exploration'
+      ]
+    },
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival & Romantic Welcome',
+        activities: [
+          'Arrive at Auckland airport; private transfer to 5-star resort',
+          'Check-in and room decoration with rose petals',
+          'Welcome drink and fresh fruit',
+          'Relax at beach or pool',
+          'Romantic dinner at resort restaurant',
+          'Overnight at luxury beachfront resort'
+        ]
+      },
+      {
+        day: 2,
+        title: 'Spa & Beach',
+        activities: [
+          'Breakfast in bed',
+          'Couples massage and spa treatment',
+          'Beach relaxation and swimming',
+          'Lunch at beachside café',
+          'Sunset romantic walk on beach',
+          'Private beach dinner with candles',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 3,
+        title: 'Cultural Experience',
+        activities: [
+          'Breakfast at resort',
+          'Visit Tanah Lot temple (ancient clifftop temple)',
+          'Explore Tegallalang rice terraces',
+          'Photography session at scenic viewpoints',
+          'Traditional Balinese lunch',
+          'Visit local artisan market',
+          'Romantic dinner at traditional restaurant',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 4,
+        title: 'Adventure & Relaxation',
+        activities: [
+          'Breakfast at resort',
+          'Optional: Sunrise trek at Mount Batur',
+          'Return for spa and relaxation',
+          'Cooking class with local chef',
+          'Lunch prepared by you',
+          'Afternoon free for personal activities',
+          'Romantic sunset dinner cruise',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 5,
+        title: 'Last Adventure',
+        activities: [
+          'Breakfast with ocean view',
+          'Visit Ubud monkey sanctuary and royal palace',
+          'Shopping at local craft market',
+          'Lunch at traditional warung',
+          'Return to resort for rest and relaxation',
+          'Special romantic themed dinner dinner',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 6,
+        title: 'Departure',
+        activities: [
+          'Breakfast at resort',
+          'Last-minute shopping at duty-free',
+          'Lunch at restaurant',
+          'Transfer to Bali airport for departure'
+        ]
+      }
+    ],
+    inclusions: [
+      '5 nights at 5-star beachfront resort (couple room)',
+      'Daily breakfast buffet',
+      'All meals as mentioned',
+      'Couples spa and massage package',
+      'Private beach dinner',
+      'Sunset dinner cruise',
+      'Cooking class with local chef',
+      'All entrance fees to attractions',
+      'Private air-conditioned vehicle and driver',
+      'Professional tour guide',
+      'Travel insurance'
+    ],
+    exclusions: [
+      'International flights',
+      'Visa fees',
+      'Personal shopping and entertainment',
+      'Optional activities (Mount Batur trek)',
+      'Tips and gratuities',
+      'Alcoholic beverages',
+      'Any items not mentioned'
+    ],
+    additionalInfo: {
+      bestTimeToVisit: 'April to October (dry season)',
+      howToBringCurrency: 'Indonesian Rupiah (IDR) - ATMs widely available',
+      documentations: 'Passport with 6 months validity, visa on arrival available for Indians',
+      travelTips: [
+        'Carry lightweight, breathable clothing',
+        'Apply high SPF sunscreen regularly',
+        'Respect cultural norms and dress codes at temples',
+        'Negotiate prices at markets politely',
+        'Stay hydrated in tropical climate',
+        'Photography allowed but ask at temples',
+        'Keep valuables secured in resort safe'
+      ],
+      cancellationPolicy: '45 days before - Full refund, 30-44 days - 25% cancellation charge, 15-29 days - 50% cancellation charge, Less than 15 days - No refund'
+    }
+  },
+
+  'japan-honeymoon-package': {
+    id: 'japan-honeymoon-package',
+    title: 'Japan Honeymoon Package',
+    destination: 'Japan',
+    duration: '5 Nights / 6 Days',
+    durationDays: 6,
+    pricePerPerson: '₹42,999',
+    price: '42999',
+    bannerImage: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=400',
+    tagline: 'Perfect romantic getaway in the paradise island of Japan',
+    overview: {
+      description: 'Create unforgettable memories in romantic Japan. This honeymoon package combines luxury stays, scenic landscapes, cultural experiences, and private romantic moments. From modern skyscrapers to serene gardens, experience the magic of Japan as a couple.',
+      highlights: [
+        'Private beach dinner on candlelight',
+        'Romantic sunset cruise',
+        'Couples spa and massage',
+        'Temple visits and cultural tours',
+        'Rice terrace exploration'
+      ]
+    },
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival & Romantic Welcome',
+        activities: [
+          'Arrive at Tokyo airport; private transfer to 5-star resort',
+          'Check-in and room decoration with rose petals',
+          'Welcome drink and fresh fruit',
+          'Relax at beach or pool',
+          'Romantic dinner at resort restaurant',
+          'Overnight at luxury beachfront resort'
+        ]
+      },
+      {
+        day: 2,
+        title: 'Spa & Beach',
+        activities: [
+          'Breakfast in bed',
+          'Couples massage and spa treatment',
+          'Beach relaxation and swimming',
+          'Lunch at beachside café',
+          'Sunset romantic walk on beach',
+          'Private beach dinner with candles',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 3,
+        title: 'Cultural Experience',
+        activities: [
+          'Breakfast at resort',
+          'Visit Tanah Lot temple (ancient clifftop temple)',
+          'Explore Tegallalang rice terraces',
+          'Photography session at scenic viewpoints',
+          'Traditional Balinese lunch',
+          'Visit local artisan market',
+          'Romantic dinner at traditional restaurant',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 4,
+        title: 'Adventure & Relaxation',
+        activities: [
+          'Breakfast at resort',
+          'Optional: Sunrise trek at Mount Batur',
+          'Return for spa and relaxation',
+          'Cooking class with local chef',
+          'Lunch prepared by you',
+          'Afternoon free for personal activities',
+          'Romantic sunset dinner cruise',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 5,
+        title: 'Last Adventure',
+        activities: [
+          'Breakfast with ocean view',
+          'Visit Ubud monkey sanctuary and royal palace',
+          'Shopping at local craft market',
+          'Lunch at traditional warung',
+          'Return to resort for rest and relaxation',
+          'Special romantic themed dinner dinner',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 6,
+        title: 'Departure',
+        activities: [
+          'Breakfast at resort',
+          'Last-minute shopping at duty-free',
+          'Lunch at restaurant',
+          'Transfer to Bali airport for departure'
+        ]
+      }
+    ],
+    inclusions: [
+      '5 nights at 5-star beachfront resort (couple room)',
+      'Daily breakfast buffet',
+      'All meals as mentioned',
+      'Couples spa and massage package',
+      'Private beach dinner',
+      'Sunset dinner cruise',
+      'Cooking class with local chef',
+      'All entrance fees to attractions',
+      'Private air-conditioned vehicle and driver',
+      'Professional tour guide',
+      'Travel insurance'
+    ],
+    exclusions: [
+      'International flights',
+      'Visa fees',
+      'Personal shopping and entertainment',
+      'Optional activities (Mount Batur trek)',
+      'Tips and gratuities',
+      'Alcoholic beverages',
+      'Any items not mentioned'
+    ],
+    additionalInfo: {
+      bestTimeToVisit: 'April to October (dry season)',
+      howToBringCurrency: 'Indonesian Rupiah (IDR) - ATMs widely available',
+      documentations: 'Passport with 6 months validity, visa on arrival available for Indians',
+      travelTips: [
+        'Carry lightweight, breathable clothing',
+        'Apply high SPF sunscreen regularly',
+        'Respect cultural norms and dress codes at temples',
+        'Negotiate prices at markets politely',
+        'Stay hydrated in tropical climate',
+        'Photography allowed but ask at temples',
+        'Keep valuables secured in resort safe'
+      ],
+      cancellationPolicy: '45 days before - Full refund, 30-44 days - 25% cancellation charge, 15-29 days - 50% cancellation charge, Less than 15 days - No refund'
+    }
+  },
+
+  'rome-honeymoon-package': {
+    id: 'rome-honeymoon-package',
+    title: 'Rome Honeymoon Package',
+    destination: 'Rome',
+    duration: '5 Nights / 6 Days',
+    durationDays: 6,
+    pricePerPerson: '₹42,999',
+    price: '42999',
+    bannerImage: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200&q=400',
+    tagline: 'Perfect romantic getaway in the paradise island of Rome',
+    overview: {
+      description: 'Create unforgettable memories in romantic Rome. This honeymoon package combines luxury stays, scenic landscapes, cultural experiences, and private romantic moments. From modern skyscrapers to serene gardens, experience the magic of Rome as a couple.',
+      highlights: [
+        'Private beach dinner on candlelight',
+        'Romantic sunset cruise',
+        'Couples spa and massage',
+        'Temple visits and cultural tours',
+        'Rice terrace exploration'
+      ]
+    },
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival & Romantic Welcome',
+        activities: [
+          'Arrive at Tokyo airport; private transfer to 5-star resort',
+          'Check-in and room decoration with rose petals',
+          'Welcome drink and fresh fruit',
+          'Relax at beach or pool',
+          'Romantic dinner at resort restaurant',
+          'Overnight at luxury beachfront resort'
+        ]
+      },
+      {
+        day: 2,
+        title: 'Spa & Beach',
+        activities: [
+          'Breakfast in bed',
+          'Couples massage and spa treatment',
+          'Beach relaxation and swimming',
+          'Lunch at beachside café',
+          'Sunset romantic walk on beach',
+          'Private beach dinner with candles',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 3,
+        title: 'Cultural Experience',
+        activities: [
+          'Breakfast at resort',
+          'Visit Tanah Lot temple (ancient clifftop temple)',
+          'Explore Tegallalang rice terraces',
+          'Photography session at scenic viewpoints',
+          'Traditional Balinese lunch',
+          'Visit local artisan market',
+          'Romantic dinner at traditional restaurant',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 4,
+        title: 'Adventure & Relaxation',
+        activities: [
+          'Breakfast at resort',
+          'Optional: Sunrise trek at Mount Batur',
+          'Return for spa and relaxation',
+          'Cooking class with local chef',
+          'Lunch prepared by you',
+          'Afternoon free for personal activities',
+          'Romantic sunset dinner cruise',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 5,
+        title: 'Last Adventure',
+        activities: [
+          'Breakfast with ocean view',
+          'Visit Ubud monkey sanctuary and royal palace',
+          'Shopping at local craft market',
+          'Lunch at traditional warung',
+          'Return to resort for rest and relaxation',
+          'Special romantic themed dinner dinner',
+          'Overnight at resort'
+        ]
+      },
+      {
+        day: 6,
+        title: 'Departure',
+        activities: [
+          'Breakfast at resort',
+          'Last-minute shopping at duty-free',
+          'Lunch at restaurant',
+          'Transfer to Bali airport for departure'
+        ]
+      }
+    ],
+    inclusions: [
+      '5 nights at 5-star beachfront resort (couple room)',
+      'Daily breakfast buffet',
+      'All meals as mentioned',
+      'Couples spa and massage package',
+      'Private beach dinner',
+      'Sunset dinner cruise',
+      'Cooking class with local chef',
+      'All entrance fees to attractions',
+      'Private air-conditioned vehicle and driver',
+      'Professional tour guide',
+      'Travel insurance'
+    ],
+    exclusions: [
+      'International flights',
+      'Visa fees',
+      'Personal shopping and entertainment',
+      'Optional activities (Mount Batur trek)',
+      'Tips and gratuities',
+      'Alcoholic beverages',
+      'Any items not mentioned'
+    ],
+    additionalInfo: {
+      bestTimeToVisit: 'April to October (dry season)',
+      howToBringCurrency: 'Indonesian Rupiah (IDR) - ATMs widely available',
+      documentations: 'Passport with 6 months validity, visa on arrival available for Indians',
+      travelTips: [
+        'Carry lightweight, breathable clothing',
+        'Apply high SPF sunscreen regularly',
+        'Respect cultural norms and dress codes at temples',
+        'Negotiate prices at markets politely',
+        'Stay hydrated in tropical climate',
+        'Photography allowed but ask at temples',
+        'Keep valuables secured in resort safe'
+      ],
+      cancellationPolicy: '45 days before - Full refund, 30-44 days - 25% cancellation charge, 15-29 days - 50% cancellation charge, Less than 15 days - No refund'
+    }
+  },
+
 
   'dubai-luxury-tour': {
     id: 'dubai-luxury-tour',

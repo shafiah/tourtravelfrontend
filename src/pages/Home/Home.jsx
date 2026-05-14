@@ -118,7 +118,7 @@ const Home = () => {
     },
     {
       id: 16,
-      name: 'New Zealand',
+      name: 'NewZealand',
       image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=400&h=400&fit=crop',
       duration: '7 Nights / 8 Days',
     },

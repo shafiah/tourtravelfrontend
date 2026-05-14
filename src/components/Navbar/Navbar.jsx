@@ -89,7 +89,7 @@ const Navbar = () => {
               <a href="#bus" className="nav-link">Bus</a>
             </li>
             <li className="nav-item">
-              <a href="#holidays" className="nav-link">Holidays</a>
+              <a href="http://localhost:3001/" className="nav-link">Holidays</a>
             </li>
           </ul>
 
