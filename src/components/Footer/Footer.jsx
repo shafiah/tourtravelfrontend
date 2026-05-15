@@ -49,13 +49,12 @@ const Footer = () => {
         <div className="footer-section">
           <h4 className="footer-title">Quick Links</h4>
           <ul className="footer-links">
-            <li><a href="http://18.206.151.182/">Home</a></li>
-            <li><a href="http://18.206.151.182/">Flights</a></li>
-            <li><a href="http://18.206.151.182/">Hotels</a></li>
-            <li><a href="http://18.206.151.182/">Trains</a></li>
-            <li><a href="http://18.206.151.182/">Bus</a></li>
-            <li><a href="http://18.206.151.182/">Holidays</a></li>
-            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/coming-soon">Flights</a></li>
+            <li><a href="/coming-soon">Hotels</a></li>
+            <li><a href="/coming-soon">Trains</a></li>
+            <li><a href="/coming-soon">Bus</a></li>
+            <li><a href="/contact-us">Contact Us</a></li>
           </ul>
         </div>
 
@@ -63,12 +62,12 @@ const Footer = () => {
         <div className="footer-section">
           <h4 className="footer-title">Popular Destinations</h4>
           <ul className="footer-links">
-            <li><a href="#kerala">Kerala</a></li>
-            <li><a href="#bali">Bali</a></li>
-            <li><a href="#kashmir">Kashmir</a></li>
-            <li><a href="#dubai">Dubai</a></li>
-            <li><a href="#maldives">Maldives</a></li>
-            <li><a href="#switzerland">Switzerland</a></li>
+            <li><a href="http://18.206.151.182/destination/kerala">Kerala</a></li>
+            <li><a href="http://18.206.151.182/destination/bali">Bali</a></li>
+            <li><a href="http://18.206.151.182/destination/kashmir">Kashmir</a></li>
+            <li><a href="http://18.206.151.182/destination/dubai">Dubai</a></li>
+            <li><a href="http://18.206.151.182/destination/maldives">Maldives</a></li>
+            <li><a href="http://18.206.151.182/destination/switzerland">Switzerland</a></li>
           </ul>
         </div>
 

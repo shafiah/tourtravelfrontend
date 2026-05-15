@@ -221,8 +221,9 @@ const Home = () => {
         <div className="promo-banner-content">
           <div className="promo-overlay"></div>
           <div className="promo-text-container">
-            <h2 className="promo-banner-title">Explore Your Dream Destination</h2>
-            <button className="promo-book-btn">Book Now</button>
+            <h2 className="promo-banner-title">Built on trust</h2>
+            <h2 className="promo-banner-title">Read Stories from travellers who trusted us to craft their perfect journey</h2>
+            <button className="promo-book-btn">View Testimonials</button>
           </div>
           <img
             src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&h=400&fit=crop"

@@ -3,12 +3,15 @@ import { useParams } from 'react-router-dom';
 import { packageData } from '../../data/packageData';
 import PackageOverview from '../../components/PackageDetails/PackageOverview';
 import ItinerarySection from '../../components/PackageDetails/ItinerarySection';
+import TripPlanModal from '../../components/Modal/TripPlanModal';
 import './PackageDetails.css';
 
 const PackageDetails = () => {
   const { packageId } = useParams();
   const pkg = packageData[packageId];
   const [activeTab, setActiveTab] = useState('overview');
+  // Trip Plan Modal State
+const [showTripPlanModal, setShowTripPlanModal] = useState(false);
 
   if (!pkg) {
     return (
@@ -121,8 +124,14 @@ const PackageDetails = () => {
                 </div>
               </div>
 
-              <button className="book-now-btn">Book This Package</button>
+              <button className="book-now-btn"
+              onClick={() => setShowTripPlanModal(true)}>Book This Package</button>
             </div>
+                {/* Trip Plan Modal */}
+                <TripPlanModal
+                isOpen={showTripPlanModal}
+                onClose={() => setShowTripPlanModal(false)}
+/>
           </div>
 
           {/* Right side - 30% (reserved for future widgets) */}
@@ -174,9 +183,17 @@ const PackageDetails = () => {
         <div className="cta-content">
           <h2>Ready for Your Adventure?</h2>
           <p>Book your {pkg.destination} trip now and create unforgettable memories!</p>
-          <button className="cta-book-btn">Book This Package</button>
+          <button className="cta-book-btn"
+          onClick={() => setShowTripPlanModal(true)}>
+            Book This Package
+          </button>
         </div>
       </div>
+        {/* Trip Plan Modal */}
+            <TripPlanModal
+            isOpen={showTripPlanModal}
+            onClose={() => setShowTripPlanModal(false)}
+/>
     </div>
   );
 };

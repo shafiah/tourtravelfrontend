@@ -2,8 +2,19 @@ import React, { useState, useEffect } from 'react';
 import './Banner.css';
 import { FaSearch } from 'react-icons/fa';
 
+// NEW: Import useNavigate for routing
+import { useNavigate } from 'react-router-dom';
+
 const Banner = () => {
+
+  // Existing slider state
   const [currentSlide, setCurrentSlide] = useState(0);
+
+  // NEW: Search input state
+  const [searchDestination, setSearchDestination] = useState('');
+
+  // NEW: React Router navigation
+  const navigate = useNavigate();
 
   const banners = [
     {
@@ -41,9 +52,25 @@ const Banner = () => {
     setCurrentSlide(index);
   };
 
+  // NEW: Search functionality
+  const handleSearch = () => {
+
+    // Prevent empty search
+    if (!searchDestination.trim()) return;
+
+    // Convert text to lowercase route
+    const formattedDestination = searchDestination
+      .trim()
+      .toLowerCase();
+
+    // Navigate to destination page
+    navigate(`/destination/${formattedDestination}`);
+  };
+
   return (
     <section className="banner-section">
       <div className="banner-container">
+
         {/* Slider */}
         <div className="banner-slider">
           {banners.map((banner, index) => (
@@ -60,13 +87,38 @@ const Banner = () => {
         {/* Search Box */}
         <div className="banner-search-container">
           <div className="search-box">
+
+            {/* UPDATED: Search Input */}
             <input
               type="text"
-              placeholder="Enter your dream destination"
+              placeholder="Enter your dream destination name like goa,paris..."
               className="search-input"
+
+              // NEW: Controlled input value
+              value={searchDestination}
+
+              // NEW: Update input state
+              onChange={(e) => setSearchDestination(e.target.value)}
+
+              // NEW: Press Enter to search
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                  handleSearch();
+                }
+              }}
             />
-            <button className="search-btn">
+
+            {/* UPDATED: Search Button */}
+            <button
+              className="search-btn"
+
+              // NEW: Search button click
+              onClick={handleSearch}
+            >
               <FaSearch className="search-icon" />
+              {/* Search Text */}
+                <span className="search-text">Search</span>
+
             </button>
           </div>
         </div>
@@ -85,16 +137,26 @@ const Banner = () => {
         {/* Navigation Arrows */}
         <button
           className="banner-arrow prev-arrow"
-          onClick={() => setCurrentSlide((prev) => (prev - 1 + banners.length) % banners.length)}
+          onClick={() =>
+            setCurrentSlide((prev) =>
+              (prev - 1 + banners.length) % banners.length
+            )
+          }
         >
           ❮
         </button>
+
         <button
           className="banner-arrow next-arrow"
-          onClick={() => setCurrentSlide((prev) => (prev + 1) % banners.length)}
+          onClick={() =>
+            setCurrentSlide((prev) =>
+              (prev + 1) % banners.length
+            )
+          }
         >
           ❯
         </button>
+
       </div>
     </section>
   );
